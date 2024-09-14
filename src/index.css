@@ -7,6 +7,11 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
 header {
   position: absolute;
   top: 10px;
@@ -64,6 +69,11 @@ header {
 
 .map-marker-container:hover .map-marker {
   transform: scale(1.05);
+}
+.container {
+  height: 100vh;
+  height: 100dvh;
+  width: 100%;
 }
 
 .modal {

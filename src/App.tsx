@@ -51,7 +51,7 @@ function App() {
   };
 
   return (
-    <div style={{ height: "100vh", width: "100%" }}>
+    <div className="container">
       <GoogleMapReact
         bootstrapURLKeys={{ key: "AIzaSyDhdQFf0dj7Glu61svDKL7_3bFuOG93UJA" }}
         defaultCenter={defaultProps.center}
